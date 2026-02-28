@@ -1,0 +1,8 @@
+CREATE TABLE retail_dw.raw.sales_raw (
+    order_id STRING,
+    customer_id STRING,
+    product STRING,
+    quantity NUMBER,
+    price NUMBER,
+    order_date DATE
+);

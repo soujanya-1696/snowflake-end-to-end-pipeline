@@ -1,0 +1,4 @@
+CREATE DATABASE retail_dw;
+CREATE SCHEMA retail_dw.raw;
+CREATE SCHEMA retail_dw.stage;
+CREATE SCHEMA retail_dw.mart;

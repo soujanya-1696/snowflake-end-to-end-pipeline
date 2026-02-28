@@ -1,0 +1,6 @@
+CREATE OR REPLACE TASK sales_task
+WAREHOUSE = compute_wh
+SCHEDULE = '5 minute'
+AS
+INSERT INTO retail_dw.stage.sales_stage
+SELECT * FROM retail_dw.raw.sales_raw;

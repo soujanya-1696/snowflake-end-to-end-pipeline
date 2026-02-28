@@ -1,0 +1,2 @@
+CREATE OR REPLACE STREAM sales_stream
+ON TABLE retail_dw.raw.sales_raw;

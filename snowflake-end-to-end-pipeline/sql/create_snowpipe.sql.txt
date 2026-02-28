@@ -1,0 +1,4 @@
+CREATE OR REPLACE PIPE sales_pipe
+AS
+COPY INTO retail_dw.raw.sales_raw
+FROM @retail_stage;

@@ -1,0 +1,2 @@
+CREATE STAGE retail_stage
+FILE_FORMAT = (TYPE = CSV SKIP_HEADER = 1);
